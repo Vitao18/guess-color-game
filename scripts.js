@@ -71,7 +71,7 @@ reset.addEventListener("click", function(){
 		squares[i].style.backgroundColor = colors[i];
 	}
 	h1.style.backgroundColor = "#C63D0F";
-	#messageDisplay.innerHTML = "";
+	messageDisplay.innerHTML = "";
 })
 
 hard.addEventListener("click", function(){
