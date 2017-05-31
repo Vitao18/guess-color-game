@@ -83,7 +83,7 @@ hard.addEventListener("click", function(){
 		squares[i].style.visibility = "visible";
 	}
 	h1.style.backgroundColor = "#C63D0F";
-	#messageDisplay.innerHTML = "";
+	messageDisplay.innerHTML = "";
 })
 
 
