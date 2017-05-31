@@ -24,6 +24,7 @@ h1 {
 	background: #C63D0F;
 	margin: 0;
 	text-transform: uppercase;
+	font-weight: 900;
 }
 
 #message{
@@ -35,9 +36,28 @@ h1 {
 	height: 30px;
 	text-align: center;
 	color: black;
+	vertical-align: middle;
 }
 
 button{
-	background: white;
+	font-size: 20px;
+	padding: 5px 10px;
+	background: #FDF3E7;
 	border: none;
+	color: #C63D0F;
+	font-family: 'Press Start 2P', cursive;
 }
+
+#new{
+	float: left;
+	margin-left: 25%;
+}
+
+
+button:hover{
+	background: #C63D0F;
+	color: #FDF3E7;
+}
+
+
+
