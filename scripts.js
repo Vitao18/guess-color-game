@@ -59,7 +59,7 @@ easy.addEventListener("click", function(){
 	for(i; i < squares.length; i++){
 		squares[i].style.visibility = "hidden";
 	}
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "#C63D0F";
 	messageDisplay.innerHTML = "";
 })
 
@@ -70,7 +70,7 @@ reset.addEventListener("click", function(){
 	for(var i = 0; i < squares.length; i++){
 		squares[i].style.backgroundColor = colors[i];
 	}
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "#C63D0F";
 	#messageDisplay.innerHTML = "";
 })
 
@@ -82,7 +82,7 @@ hard.addEventListener("click", function(){
 		squares[i].style.backgroundColor = colors[i];
 		squares[i].style.visibility = "visible";
 	}
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "#C63D0F";
 	#messageDisplay.innerHTML = "";
 })
 
