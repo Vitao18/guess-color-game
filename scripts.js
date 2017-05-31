@@ -23,7 +23,7 @@ for(var i = 0; i < squares.length; i++){
 			h1.style.backgroundColor = pickedColor;
 		}
 		else{
-			this.style.backgroundColor = "#232323";
+			this.style.backgroundColor = "#3B3738";
 			messageDisplay.innerHTML = "Try again";
 		}
 	});
