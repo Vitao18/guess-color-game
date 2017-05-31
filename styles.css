@@ -1,5 +1,6 @@
 body{
 	background: #232323;
+	margin: 0;
 }
 
 .square{
@@ -15,6 +16,28 @@ body{
 	margin: 0 auto;
 }
 
-h1, #message{
+h1 {
+	padding: 1.66% 0;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
 	color: whitesmoke;
+	background: #C63D0F;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+#message{
+	color: black;
+}
+
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+button{
+	background: white;
+	border: none;
 }
